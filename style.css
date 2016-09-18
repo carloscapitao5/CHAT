@@ -1,0 +1,115 @@
+body{
+      margin: 0;
+      background-color: #f5f5ef;
+}
+
+      .corpo{
+            display: block;
+            width: 80%;
+            height: 85%;
+            margin: auto;
+            margin-top: 2%;
+            background-color: white;
+            border: solid 5px black;
+            padding: 15px;
+      }
+            .top{
+                  display: flex;
+                  width: 100%;
+                  height: 10%;
+            }
+                  .top_left{
+                        display: flex;
+                        width: 20%;
+                        height: 100%;
+                  }
+                        .buttom_opt{
+                              width: 20%;
+                              height: 20%;
+                        }
+                  .top_rigth{
+                        display: block;
+                        width: 80%;
+                        height: 100%;
+                  }
+                        .nick{
+                            display: block;
+                            width: 20%;
+                            height: 40%;
+                            margin: auto;
+                        }
+
+            .bottom{
+                  display: flex;
+                  width: 100%;
+                  height: 85%;
+                  margin-top: 10px;
+            }
+                  .bottom_left{
+                        display: block;
+                        width: 20%;
+                        height: 100%;
+                  }
+                        .usuarios{
+                              display: block;
+                              width: 100%;
+                        }
+                        .bottom_left_bottom{
+                              margin-top: 30px;
+                              display: block;
+                              height: 50%;
+                        }
+                              .usuario{
+                                    display: block;
+                                    margin-top: 10px;
+                                    margin-bottom: 10px;
+                                    border-bottom: solid 1px;
+                              }
+                  .bottom_right{
+                        display: block;
+                        width: 80%;
+                        height: 100%;
+                        border-left: solid grey 1px;
+                  }
+                        .bottom_right_top{
+                              display: block;
+                              width: 100%;
+                              height: 10%;
+                        }
+                              .nom_conv{
+                                    display: block;
+                                    width: 10%;
+                                    height: 100%;
+                                    margin: auto;
+                              }
+                        .bottom_right_center{
+                              display: block;
+                              width: 100%;
+                              height: 80%;
+                              background-color: white;
+                        }
+                              .msg_enviada{
+                                    text-align: right;
+                                    padding: 3px;
+                                    width: 5%;
+                                    background-color: lightgreen;
+                              }
+                              .msg_recebida{
+                                    text-align: left;
+                                    padding: 3px;
+                                    width: 5%;
+                                    background-color: lightskyblue;
+                              }
+                        .bottom_right_bottom{
+                              display: flex;
+                              width: 100%;
+                              height: 10%;
+                        }
+                              .mensagem{
+                                    width: 90%;
+                                    height: 100%;
+                              }
+                              .enviar{
+                                    height: 100%;
+                                    width: 10%;
+                              }
